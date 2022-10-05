@@ -108,28 +108,43 @@ main{
                 z-index: 1
             }
 
-            .sale{
-                position: absolute;
-                margin-top: 120%;
-                width: fit-content;
-                padding: 1% 2%;
-                background-color: red;
-                color: #fff;
-            }
+                .sale{
+                    position: absolute;
+                    margin-top: 120%;
+                    width: fit-content;
+                    padding: 1% 2%;
+                    background-color: red;
+                    color: #fff;
+                }
 
-            .sostenibility{
-                position: absolute;
-                margin-top: 120%;
-                margin-left: 15%;
-                width: fit-content;
-                padding: 1% 2%;
-                background-color: green;
-                color: #fff;
-            }
+                .sostenibility{
+                    position: absolute;
+                    margin-top: 120%;
+                    margin-left: 15%;
+                    width: fit-content;
+                    padding: 1% 2%;
+                    background-color: green;
+                    color: #fff;
+                }
 
-            #sx-down{
-                margin-left: 0;
-            }
+                #sx-down{
+                    margin-left: 0;
+                }
+
+                .pref{
+                    position: absolute;
+                    margin-top: 5%;
+                    margin-left: 93%;
+                    width: fit-content;
+                    padding: 1% 2%;
+                    background-color: #fff;
+                    color: #000;
+                }
+
+                .pref:hover {
+                    color:red;
+                }
+
 
             img{
                 width: 100%;
@@ -166,6 +181,29 @@ main{
                     text-decoration: line-through;
                 }
 
+                    #product1:hover{
+                        content: url(../img/1b.webp);
+                    }
+
+                    #product2:hover{
+                        content: url(../img/2b.webp);
+                    }
+
+                    #product3:hover{
+                        content: url(../img/3b.webp);
+                    }
+
+                    #product4:hover{
+                        content: url(../img/4b.webp);
+                    }
+
+                    #product5:hover{
+                        content: url(../img/5b.webp);
+                    }
+
+                    #product6:hover{
+                        content: url(../img/6b.webp);
+                    }
 
 /* Footer */
 footer{
