@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Nav/Header */
+header{
+    position: fixed;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    background-color: #ff6900;
+}
+
+    nav{
+        width: 80%;
+        /* [Debug] */
+        height: 50px;
+        
+        border: #000 solid 1px;
+    }
+
+
+
+
+
+
+/* Main/Shop */
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: ; */
+}
+
+    .shop{
+        width: 80%;
+        /* [Debug] */
+        height: 800px;
+
+        border: #000 solid 1px;
+        background-color: antiquewhite;
+    }
+
+
+
+
+
+/* Footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+    .details{
+        width: 80%;
+        /* [Debug] */
+        height: 50px;
+
+        border: #fff solid 1px;
+    }
