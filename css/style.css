@@ -12,8 +12,10 @@ header{
     display: flex;
     justify-content: center;
     background-color: #ff6900;
+    position: fixed;
 }
 
+/* Navigation bar */
     nav{
         width: 80%;
         /* [Debug] */
