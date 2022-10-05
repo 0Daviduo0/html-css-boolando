@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 /* Nav/Header */
@@ -17,9 +18,24 @@ header{
         width: 80%;
         /* [Debug] */
         height: 50px;
-        
+
         border: #000 solid 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+
+        .clothing{
+            width: 300px;
+            border: #000 solid 1px;
+            
+        }
+        
+            .genre{
+                display: inline-block;
+                margin-right: 2%;
+                color: #fff;
+            }
 
 
 
