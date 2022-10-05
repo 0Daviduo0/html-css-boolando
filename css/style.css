@@ -100,6 +100,7 @@ main{
         }
 
             .cloth{
+                width: calc(100% / 3);
                 margin-bottom: 2%;
                 display: flex;
                 flex-direction: column;
@@ -153,7 +154,42 @@ footer{
         /* [Debug] */
         height: 50px;
 
-        border: #fff solid 1px;
+        /* border: #fff solid 1px; */
         display: flex;
         justify-content: space-between;
+        margin: 2% 0;
     }
+
+        .agency{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+        }
+
+            #name-agency{
+                font-weight: bold;
+            }
+
+            #buttons{
+                display: flex;
+            }
+
+            .legal-buttons{
+                display: inline-block;
+                margin-right: 3%;
+            }
+
+            #find-us{
+                text-align: right;
+            }
+
+            .social-icon{
+                display: inline-block;
+                margin-left: 2%;
+                font-size: 20px;
+            }
+
+            #social-buttons{
+                text-align: right;
+            }
