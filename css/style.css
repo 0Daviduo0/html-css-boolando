@@ -92,7 +92,7 @@ main{
 
         margin: 5% 0;
         border: #000 solid 1px;
-        background-color: antiquewhite;
+        /* background-color: antiquewhite; */
     }
 
         .row{
@@ -120,7 +120,7 @@ main{
 
 
                 .description{
-                    line-height: 20px;
+                    line-height: 18px;
                 }
             
                 .bold-des{
@@ -154,4 +154,6 @@ footer{
         height: 50px;
 
         border: #fff solid 1px;
+        display: flex;
+        justify-content: space-between;
     }
