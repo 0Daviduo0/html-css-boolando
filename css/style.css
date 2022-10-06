@@ -109,27 +109,27 @@ main{
                 z-index: 1
             }
 
-                .sale{
+                #lable-cont{
                     position: absolute;
-                    margin-top: 120%;
+                    display: flex;
+                    margin-top: 130%;
+                }
+
+                .sale{
+                    display: inline-block;
                     width: fit-content;
                     padding: 1% 2%;
                     background-color: red;
                     color: #fff;
+                    margin-right: 5%;
                 }
 
                 .sostenibility{
-                    position: absolute;
-                    margin-top: 120%;
-                    margin-left: 15%;
+                    display: inline-block;
                     width: fit-content;
                     padding: 1% 2%;
                     background-color: green;
                     color: #fff;
-                }
-
-                #sx-down{
-                    margin-left: 0;
                 }
 
                 .pref{
