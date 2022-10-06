@@ -109,7 +109,7 @@ main{
                 z-index: 1
             }
 
-                #lable-cont{
+                .lable-cont{
                     position: absolute;
                     display: flex;
                     margin-top: 130%;
